@@ -89,3 +89,15 @@ button:hover{
     cursor: pointer;
     font-weight: bold;
 }
+
+/* media queries */
+@media (max-width: 500px) {
+    main{
+        width: 90%;
+    }
+}
+@media (min-width: 501px) and (max-width:1000px) {
+    main{
+        width: 45%;
+    }
+}
